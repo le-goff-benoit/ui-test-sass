@@ -1,0 +1,18 @@
+<nav class="navbar">
+  <div class="navbar__logo">
+    <%= link_to 'AssociaPlus+', '#' %>
+  </div>
+  <div class="navbar__items">
+    <ul>
+      <li>
+        <%= link_to 'Link 1', '#', :class => 'navbar__link' %>
+      </li>
+      <li>
+        <%= link_to 'Link 2', '#', :class => 'navbar__link' %>
+      </li>
+      <li>
+        <%= button_tag 'Dark', {:class => 'navbar__link', 'data-body-target' => "button", 'data-action' => 'click->body#change_mode' , :remote => 'true'} %>
+      </li>
+    </ul>
+  </div>
+</nav>

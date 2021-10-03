@@ -1,0 +1,21 @@
+body {
+  font-family: 'Oxygen', sans-serif !important;
+  color: $blue__dark;
+  font-size: calc(1rem + 0.8vw);
+  background-color: $light;
+}
+
+.dark {
+  color: $blue;
+  background-color: $dark;
+}
+
+body:after {
+  content: '';
+  width: 0;
+  height: 100vh;
+  position: absolute;
+  border-left: 20px $blue solid;
+  top: 0;
+  left: 0;
+}

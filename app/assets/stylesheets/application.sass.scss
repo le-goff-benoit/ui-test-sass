@@ -1,0 +1,13 @@
+// Common
+@import './common/colors';
+@import './common/html';
+@import './common/body';
+@import './common/fonts';
+@import './common/layouts';
+
+// Fonts from Google
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+// Layouts
+@import './layouts/container';
+@import './layouts/navbar';
